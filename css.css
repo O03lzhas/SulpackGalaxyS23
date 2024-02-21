@@ -1,0 +1,185 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    width: 100vw;
+}
+
+
+.main {
+    width: 100%;
+    height: 960px;
+    overflow: hidden;
+
+}
+
+.main__inner {}
+
+.main__innerIMG {
+    width: 100%;
+    height: auto;
+
+
+}
+
+.main__innerTEXT {
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.main__innerTitle {}
+
+
+.second {
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+
+.secondRightText {
+    background-color: rgb(131, 168, 131);
+}
+
+.secondRightText h1 {
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.secondRightTextTitle {
+    font-size: 60px;
+
+}
+
+.secondRightText h1 {
+    width: 750px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.secondVideo {
+    width: 60%;
+}
+
+.secondVideo source {
+    width: 600px;
+}
+
+.three {
+    width: 100%;
+    height: 662px;
+    background-color: rgb(131, 168, 131);
+
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.threeItem {}
+
+.threeItemText {
+    padding-top: 150px;
+    padding-left: 50px;
+    width: 800px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.threeItemTextTitle {
+    font-size: 60px;
+    color: rgb(197, 62, 62);
+    margin-bottom: 15px;
+}
+
+.threeItemTextTitle1 {
+    font-size: 30px;
+    color: 000;
+    margin-bottom: 10px;
+}
+
+.threeItemTextTitle2 {
+    color: #000;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.threeItemTextTitle3 {
+    transition: .3s ease-in-out;
+}
+
+.threeItemTextTitle3 a {
+    margin-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.threeItemTextTitle3 a:hover {
+    color: rgb(197, 62, 62);
+}
+
+.threeItemTextTitle3:hover {
+    transform: scale(1.1);
+}
+
+.threeItemIMG {}
+
+.threeIMG {
+    width: 1100px;
+}
+
+.harackerisiki {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.chto {
+    width: 100vw;
+    height: auto;
+}
+
+
+.harackerisiki {
+    position: relative;
+}
+
+.harackerisiki img {}
+
+.harackerisiki p {
+    margin-bottom: 20px;
+    transition: .3s ease-in-out;
+    border-bottom: 1px solid #fff;
+    padding: 1em 0px;
+
+}
+
+.harackerisiki p:hover {
+    transform: scale(1.1);
+}
+
+.harackerisikiTEXT {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 1;
+    color: #fff;
+    width: 600px;
+    font-size: 27px;
+    text-align: left;
+
+}
