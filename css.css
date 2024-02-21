@@ -46,9 +46,9 @@ body {
     display: flex;
 }
 
-.secondRightText {
+/* .secondRightText {
     background-color: rgb(131, 168, 131);
-}
+} */
 
 .secondRightText h1 {
     padding-top: 200px;
